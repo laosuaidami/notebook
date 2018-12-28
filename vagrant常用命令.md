@@ -1,4 +1,4 @@
-#vagrant常用命令
+# vagrant常用命令
 
 1. 先创建一个空的目录
 2. vagrant init centos/7 初始化虚拟机配置文件
