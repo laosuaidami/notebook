@@ -19,6 +19,6 @@
 	
 ## 6. 建立软连接
 	1. ln -s /usr/local/bin/python3.6 /usr/bin/python3
-	2. ln -s /usr/local/bin/pip3.6 /usr/bin/pip3
+	2. ln -s /usr/local/bin/pip3.6 /usr/bin/pip3 
 
 # 安装结束

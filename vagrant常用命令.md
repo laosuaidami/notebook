@@ -8,3 +8,4 @@
 6. vagrant halt     关机
 7. vagrant destroy  删除虚拟机
 8. vagrantfile 可以配置虚拟机的类型
+9. vagrant plugin install vagrant-vbguest  **安装插件，创建的虚拟键可以完成挂载**
