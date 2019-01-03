@@ -1,5 +1,6 @@
 # Linux命令笔记
 
+## 1 用户权限命令
 	1. sudo groupadd  [用户组]   增加用户组
 	2. sudo gpasswd -a vagrant docker  将vagrant用户添加到docker用户组
 	3. groups [username]：查看该用户所属用户组     
@@ -14,4 +15,16 @@
 	12. sudo su：使当前用户进入 root 
 	13. chmod [777] [file]：修改文件权限     
 	14. sudo chown [username] [file]：修改文件所有者（sudo 组用户才有此权限）
-	15. telnet 39.105.203.212 5000  测试本设备端口能否被访问 
+	
+## 2 网络管理命令
+	1. telnet 39.105.203.212 5000   验证服务的可用性 测试本设备端口能否被访问 
+		eg: telnet www.imooc.com 80
+	2. ping 39.105.203.212    验证IP可达性
+	
+
+
+
+
+
+
+
